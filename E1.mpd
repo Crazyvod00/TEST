@@ -12,7 +12,7 @@
                 <mspr:pro>BgIAAAEAAQD8ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AbwBlAEwANABnAHEAeAA5AHcARQBTAGgAagAyAFkARQBlAFQAUwBjAFcAUQA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBwAEoATABnACsAdgBWAFcAMQBTAEEAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
             </ContentProtection>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate timescale="180000" initialization="$RepresentationID$/init.cmfv" media="$RepresentationID$/D$Time$.cmfv" presentationTimeOffset="0">
+            <SegmentTemplate timescale="180000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/init.cmfv" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/D$Time$.cmfv" presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="309341367705600" d="345600" r="30"/>
                 </SegmentTimeline>
@@ -39,7 +39,7 @@
             </ContentProtection>
             <Label>German</Label>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate timescale="48000" initialization="$RepresentationID$/init.cmfa" media="$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
+            <SegmentTemplate timescale="48000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/init.cmfa" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="82491031389184" d="92160" r="30"/>
                 </SegmentTimeline>
