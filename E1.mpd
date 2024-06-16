@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:ns1="http://www.w3.org/2001/XMLSchema-instance" ns1:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" profiles="urn:mpeg:dash:profile:isoff-live:2011,urn:dvb:dash:profile:dvb-dash:2014,urn:dvb:dash:profile:dvb-dash:isoff-ext-live:2014,http://dashif.org/guidelines/dash-if-simple" xmlns:cenc="urn:mpeg:cenc:2013" xmlns:mspr="urn:microsoft:playready" timeShiftBufferDepth="PT1M0S" minimumUpdatePeriod="PT2S" maxSegmentDuration="PT2.11S" availabilityStartTime="1970-01-01T00:00:00Z" publishTime="2024-06-16T18:03:58Z" minBufferTime="PT1S" type="dynamic">
-    <Period start="PT0S">
+    <Period start="PT0S" id="p_1_0">
+        <BaseURL>https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/</BaseURL>
         <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="1080" minFrameRate="25" maxFrameRate="50" par="16:9" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1">
             <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" cenc:default_KID="82f8e2a1-7dac-44c0-a18f-660479349c59"/>
             <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
@@ -11,7 +12,7 @@
                 <mspr:pro>BgIAAAEAAQD8ATwAVwBSAE0ASABFAEEARABFAFIAIAB4AG0AbABuAHMAPQAiAGgAdAB0AHAAOgAvAC8AcwBjAGgAZQBtAGEAcwAuAG0AaQBjAHIAbwBzAG8AZgB0AC4AYwBvAG0ALwBEAFIATQAvADIAMAAwADcALwAwADMALwBQAGwAYQB5AFIAZQBhAGQAeQBIAGUAYQBkAGUAcgAiACAAdgBlAHIAcwBpAG8AbgA9ACIANAAuADAALgAwAC4AMAAiAD4APABEAEEAVABBAD4APABQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsARQBZAEwARQBOAD4AMQA2ADwALwBLAEUAWQBMAEUATgA+ADwAQQBMAEcASQBEAD4AQQBFAFMAQwBUAFIAPAAvAEEATABHAEkARAA+ADwALwBQAFIATwBUAEUAQwBUAEkATgBGAE8APgA8AEsASQBEAD4AbwBlAEwANABnAHEAeAA5AHcARQBTAGgAagAyAFkARQBlAFQAUwBjAFcAUQA9AD0APAAvAEsASQBEAD4APABDAEgARQBDAEsAUwBVAE0APgBwAEoATABnACsAdgBWAFcAMQBTAEEAPQA8AC8AQwBIAEUAQwBLAFMAVQBNAD4APAAvAEQAQQBUAEEAPgA8AC8AVwBSAE0ASABFAEEARABFAFIAPgA=</mspr:pro>
             </ContentProtection>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate timescale="180000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/init.cmfv" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/D$Time$.cmfv" presentationTimeOffset="0">
+            <SegmentTemplate timescale="180000" initialization="$RepresentationID$/init.cmfv" media="$RepresentationID$/D$Time$.cmfv" presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="309340976140800" d="345600" r="30"/>
                 </SegmentTimeline>
@@ -38,7 +39,7 @@
             </ContentProtection>
             <Label>German</Label>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate timescale="48000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/init.cmfa" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-027/1/$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
+            <SegmentTemplate timescale="48000" initialization="$RepresentationID$/init.cmfa" media="$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="82490926971904" d="92160" r="30"/>
                 </SegmentTimeline>
@@ -61,7 +62,7 @@
             </ContentProtection>
             <Label>Italian</Label>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate timescale="48000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-029/1/$RepresentationID$/init.cmfa" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-029/1/$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
+            <SegmentTemplate timescale="48000" initialization="$RepresentationID$/init.cmfa" media="$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="82490927248384" d="92160" r="31"/>
                 </SegmentTimeline>
@@ -84,7 +85,7 @@
             </ContentProtection>
             <Label>audio_64kbps</Label>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate timescale="48000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-031/3/$RepresentationID$/init.cmfa" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-031/3/$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
+            <SegmentTemplate timescale="48000" initialization="$RepresentationID$/init.cmfa" media="$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="82490927801344" d="92160" r="30"/>
                 </SegmentTimeline>
