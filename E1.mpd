@@ -84,7 +84,7 @@
             </ContentProtection>
             <Label>audio_64kbps</Label>
             <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
-            <SegmentTemplate timescale="48000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-031/1/$RepresentationID$/init.cmfa" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-031/1/$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
+            <SegmentTemplate timescale="48000" initialization="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-031/3/$RepresentationID$/init.cmfa" media="https://dcf-de-livedazn.daznedge.net/dash/dazn-linear-031/3/$RepresentationID$/D$Time$.cmfa" presentationTimeOffset="0">
                 <SegmentTimeline>
                     <S t="82490927801344" d="92160" r="30"/>
                 </SegmentTimeline>
